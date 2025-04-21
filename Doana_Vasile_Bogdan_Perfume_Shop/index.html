@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <div href="#" class="favorite-message">Adăugat la favorite!</div>
+    <i class="fas fa-heart" id="favorite-icon"></i>
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="images/logologo.jpg" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">acasa</a>
+            <a href="#about">despre</a>
+            <a href="#menu">reduceri</a>
+            <a href="#products">produse</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search..">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <div class="cart-total">
+                    Total: <span id="total-price">$0.00</span>
+                </div>
+            </div>
+            <!--
+                <span class="fas fa-times"></span>
+                <img src="images/sticla11.png" alt="">
+                <div class="content">
+                    <h3>Sultan's Serenade</h3>
+                    <div class="price">$121.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/sticla22.png" alt="">
+                <div class="content">
+                    <h3>Oud Mystique</h3>
+                    <div class="price">$150.55</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/sticla33.png" alt="">
+                <div class="content">
+                    <h3>Harem Harmony</h3>
+                    <div class="price">$89.10</div>
+                </div>
+            </div>
+        -->
+            <!--  <a href="#" class="btn">Checkout now:</a> -->
+        </div>
+
+    </header>
+    <!-- header section ends -->
+
+
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Descoperiți Magia Parfumurilor Arabesti</h3>
+            <p>Vă invităm să explorați universul nostru olfactiv și să vă bucurați de o călătorie a simțurilor</p>
+            <a href="#menu" id="order-now-btn" class="btn">comanda chiar acum!</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>Despre</span> Noi </h1>
+        <div class="row">
+
+            <div class="image">
+                <img src="images/wallpaper.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Descoperiți Magia Parfumurilor Arabesti</h3>
+                <p>Imaginează-te transportat în lumea fascinantă a aromelor bogate și a parfumurilor rafinate. "Luxury
+                    Perfume"
+                    vă invită să explorați și să experimentați misterul și eleganța parfumurilor arabe
+                    autentice, care îmbină tradiția ancestrală cu luxul contemporan.</p>
+
+                <h3>Colecția Noastră</h3>
+                <p>Experimentați o colecție exclusivă de parfumuri, selectate cu grijă din cele mai fine ingrediente și
+                    esențe prețioase. Fiecare flacon este o operă de artă, o poveste captivantă a culturii și
+                    tradițiilor din Orientul Mijlociu.</p>
+
+                <h3>Parfumuri Unice</h3>
+                <p>De la aromele dulci și seducătoare de oud și mosc, la parfumurile florale și lemnoase, fiecare produs
+                    oferă o experiență olfactivă unică. Gama noastră cuprinzătoare de parfumuri satisface gusturile
+                    celor care caută eleganță și rafinament.</p>
+
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+
+
+    </section>
+
+    <!-- about section ends -->
+
+
+
+
+    <!-- menu section starts -->
+
+    <section class="menu" id="menu">
+
+        <h1 class="heading"> Extra <span>Reduceri</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/sticla11.png" alt="">
+                <h3>Sultan's Serenade</h3>
+                <div class="price">$121.99 <span> 150.00</span></div>
+                <a href="#" class="btn">Adauga in cos</a>
+            </div>
+
+            <div class="box">
+                <img src="images/sticla22.png" alt="">
+                <h3>Oud Mystique</h3>
+                <div class="price">$150.55 <span> 250.00</span></div>
+                <a href="#" class="btn">Adauga in cos</a>
+            </div>
+
+            <div class="box">
+                <img src="images/sticla33.png" alt="">
+                <h3>Harem Harmony</h3>
+                <div class="price">$89.10 <span> 110.00</span></div>
+                <a href="#" class="btn">Adauga in cos</a>
+            </div>
+            <!--
+            <div class="box">
+                <img src="images/sticla44.png" alt="">
+                <h3>Desert Breeze</h3>
+                <div class="price">$52.55 <span> 60.00</span></div>
+                <a href="#" class="btn">Adauga in cos</a>
+            </div>
+
+            <div class="box">
+                <img src="images/sticla55.png" alt="">
+                <h3>Alhambra's Whispers</h3>
+                <div class="price">$210.00 <span> 250.00</span></div>
+                <a href="#" class="btn">Adauga in cos</a>
+            </div>
+
+            <div class="box">
+                <img src="images/sticla66.png" alt="">
+                <h3>Arabian Nights' Aura</h3>
+                <div class="price">$310.00 <span> 350.00</span></div>
+                <a href="#" class="btn">Adauga in cos</a>
+            </div>
+            -->
+        </div>
+
+    </section>
+
+    <!-- menu section starts -->
+
+
+
+
+
+    <!-- products section starts-->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> Produsele <span>Noastre</span></h1>
+
+        <div class="box-container">
+            <!--
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                
+                <div class="image">
+                    <img src="images/sticla11.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+                    </div>
+                    <div class="price">$200<span>250</span></div>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="images/sticla22.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+                    </div>
+                    <div class="price">$200<span>250</span></div>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="images/sticla33.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        
+                    </div>
+                    <div class="price">$200<span>250</span></div>
+
+                </div>
+            </div>
+            -->
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="images/sticla44.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Desert Breeze</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+                    </div>
+                    <div class="price">$52.55 <span> 50.00</span></div>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="images/sticla55.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Alhambra's Whispers</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+                    </div>
+                    <div class="price">$210.00 <span> 250.00</span></div>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="images/sticla66.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Arabian Nights' Aura</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+                    </div>
+                    <div class="price">$310.00 <span> 350.00</span></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- products section starts-->
+
+    <!-- review section starts -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> Review-urile <span>clientilor</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <!--<img src="images/fundal2.jpg" alt="" class="quote">-->
+                <p>"Experiență fascinantă! Parfumurile sunt pur și simplu irezistibile. Ambalajul elegant și calitatea
+                    notelor parfumate au făcut achiziția perfectă!"</p>
+                <img src="images/persoana11.jpg" class="user" alt="">
+                <h3>Bogdan</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <p>"Magazinul acesta este o comoară! Parfumurile lor au acea esență autentică arabă, iar gama largă a
+                    fost un deliciu pentru mine, făcând alegerea unei provocări plăcute."</p>
+                <img src="images/persoana22.jpg" class="user" alt="">
+                <h3>Giulia</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <p>"Parfumurile acestui magazin sunt reminiscențe ale Orientului! Nu doar că persistența lor este
+                    uluitoare, dar fiecare parfum pare să spună o poveste."</p>
+                <img src="images/persoana33.jpg" class="user" alt="">
+                <h3>Roxana</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>Contacteaza-ne</span> </h1>
+
+        <div class="row">
+
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.2023512698884!2d28.049686975800018!3d45.44557833468169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b6de4f88124925%3A0xbdac409e8bda86a6!2sFacultatea%20de%20Automatic%C4%83%2C%20Calculatoare%2C%20Inginerie%20Electric%C4%83%20%C8%99i%20Electronic%C4%83!5e0!3m2!1sro!2sro!4v1702996328278!5m2!1sro!2sro"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">
+                <h3>Despre tine</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="Number">
+                </div>
+                <input type="submit" value="contact now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+
+        <div class="share">
+            <a href="https://www.facebook.com/faciee" class="fab fa-facebook-f" target="_blank"></a>
+            <a href="https://twitter.com/" class="fab fa-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/cs.faciee/" class="fab fa-instagram" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/bogdan-doana-955350264/" class="fab fa-linkedin" target="_blank"></a>
+            <a href="https://ro.pinterest.com/pin/47639708550437392/" class="fab fa-pinterest" target="_blank"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </div>
+
+        <div class="credit">created by <span> Doana Vasile Bogdan</span> | all rights reserved</div>
+
+    </section>
+
+    <!-- footer section endss -->
+
+
+
+
+
+
+
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const addToCartButtons = document.querySelectorAll('.btn');
+            const cartIcons = document.querySelectorAll('.fa-shopping-cart'); // Selectează toate iconurile coșului de cumpărături
+
+            cartIcons.forEach(icon => {
+                icon.addEventListener('click', addToCartFromIcon); // Adaugă un eveniment de click pentru fiecare icon coș
+            });
+
+            function addToCartFromIcon(event) {
+                event.preventDefault();
+                const product = event.target.closest('.box'); // Găsește cel mai apropiat element cu clasa 'box'
+                addToCartProduct(product); // Adaugă produsul asociat iconului coș în coșul de cumpărături
+            }
+            const cartIcon = document.querySelector('.fa-shopping-cart'); // Selectează iconul coșului de cumpărături
+
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', addToCart); // Adaugă un eveniment de click pentru fiecare buton
+                button.addEventListener('click', function (event) {
+                    event.preventDefault(); // Opriți navigarea către "#"
+                });
+            });
+
+            cartIcon.addEventListener('click', function (event) {
+                event.preventDefault(); // Opriți navigarea către "#"
+                addToCart(event); // La clic pe iconul coșului de cumpărături, adaugă produsul în coș
+            });
+
+            function addToCartProduct(product) {
+                const image = product.querySelector('img').src;
+                const title = product.querySelector('h3').textContent;
+                const priceElement = product.querySelector('.price');
+                const priceText = priceElement.textContent;
+
+                if (priceText.includes('$')) {
+                    const price = parseFloat(priceText.match(/\$\d+\.\d+/)[0].slice(1));
+
+                    const cartItem = document.createElement('div');
+                    cartItem.classList.add('cart-item');
+
+                    cartItem.innerHTML = `
+            <span class="fas fa-times"></span>
+            <img src="${image}" alt="">
+            <div class="content">
+                <h3>${title}</h3>
+                <div class="price">$${price.toFixed(2)}</div>
+            </div>
+        `;
+
+                    const cartItemsContainer = document.querySelector('.cart-items-container');
+                    cartItemsContainer.appendChild(cartItem);
+
+                    const removeButtons = document.querySelectorAll('.fa-times');
+                    removeButtons.forEach(button => {
+                        button.addEventListener('click', removeFromCart);
+                    });
+
+                    updateTotal(); // Actualizează totalul în coșul de cumpărături
+                }
+            }
+
+            function addToCart(event) {
+                event.preventDefault();
+                const product = event.target.parentElement; // Produsul la care s-a făcut clic pe butonul "Adaugă în coș"
+                const image = product.querySelector('img').src; // Imaginea produsului
+                const title = product.querySelector('h3').textContent; // Titlul produsului
+                const priceText = product.querySelector('.price').textContent; // Textul complet al prețului
+
+                // Extrage prețul care începe cu "$"
+                const priceMatch = priceText.match(/\$\d+\.\d+/);
+                const price = priceMatch ? priceMatch[0] : ''; // Folosește prețul extras sau un șir gol dacă nu se găsește niciun preț
+
+                const cartItem = document.createElement('div'); // Creează un element pentru produsul din coșul de cumpărături
+                cartItem.classList.add('cart-item');
+
+                cartItem.innerHTML = `
+        <span class="fas fa-times"></span>
+        <img src="${image}" alt="">
+        <div class="content">
+            <h3>${title}</h3>
+            <div class="price">${price}</div>
+        </div>
+    `;
+
+                const cartItemsContainer = document.querySelector('.cart-items-container'); // Containerul coșului de cumpărături
+                cartItemsContainer.appendChild(cartItem); // Adaugă produsul în coșul de cumpărături
+
+                const removeButtons = document.querySelectorAll('.fa-times');
+                removeButtons.forEach(button => {
+                    button.addEventListener('click', removeFromCart); // Adaugă un eveniment pentru a elimina produsul din coș
+                });
+
+                updateTotal(); // Actualizează totalul în coșul de cumpărături
+            }
+            function removeFromCart(event) {
+                const itemToRemove = event.target.parentElement;
+                itemToRemove.remove(); // Elimină produsul din coș
+                updateTotal(); // Actualizează totalul în coșul de cumpărături
+            }
+
+
+
+
+
+            const searchBox = document.getElementById('search-box');
+
+            searchBox.addEventListener('keyup', function (event) {
+                const searchText = event.target.value.toLowerCase().trim();
+                const allElements = document.querySelectorAll('h1, h2, h3, p, span, a');
+
+                allElements.forEach(element => {
+                    const elementText = element.textContent.toLowerCase();
+                    const regex = new RegExp(searchText, 'g'); // Creează un obiect RegExp pentru a evidenția toate aparițiile
+
+                    if (searchText !== '') {
+                        const highlightedText = elementText.replace(regex, '<span style="background-color: yellow;">$&</span>');
+                        element.innerHTML = highlightedText;
+                    } else {
+                        element.innerHTML = elementText; // Revert to original text when search box is empty
+                    }
+                });
+            });
+
+            const contactButton = document.querySelector('.contact .btn'); // Selectează butonul "Contact now"
+
+            contactButton.addEventListener('click', function (event) {
+                event.preventDefault(); // Opriți comportamentul implicit al butonului
+
+                const maintenanceMessage = "Suntem in mentenanta! Vom reveni la dvs. in cel mai scurt timp!"; // Mesajul de mentenanță
+
+                // Poți modifica conținutul sau stilul elementului dorit pentru a afișa mesajul de mentenanță
+                // De exemplu, poți schimba textul din formular sau poți afișa o alertă cu mesajul de mentenanță
+                alert(maintenanceMessage);
+            });
+
+            const favoriteIcon = document.getElementById('favorite-icon');
+            const favoriteMessage = document.querySelector('.favorite-message');
+
+            favoriteIcon.addEventListener('click', function (event) {
+                event.preventDefault();
+                favoriteMessage.style.display = 'block'; // Afișăm mesajul când se dă clic pe inimă
+                setTimeout(function () {
+                    favoriteMessage.style.display = 'none'; // Ascundem mesajul după 3 secunde
+                }, 3000);
+            });
+
+            const orderNowButton = document.getElementById('order-now-btn');
+
+            orderNowButton.addEventListener('click', function (event) {
+                event.preventDefault();
+                window.location.href = '#menu';
+            });
+
+            function updateTotal() {
+                const cartItems = document.querySelectorAll('.cart-item');
+                let total = 0;
+
+                cartItems.forEach(item => {
+                    const priceString = item.querySelector('.price').textContent;
+                    const price = parseFloat(priceString.replace(/\$/g, '')); // Eliminăm simbolul "$" din textul prețului și convertim într-un număr
+                    total += price;
+                });
+
+                const totalPriceElement = document.getElementById('total-price');
+                totalPriceElement.textContent = '$' + total.toFixed(2); // Actualizăm totalul în HTML cu valoarea corectă formatată
+            }
+
+
+        });
+    </script>
+
+    <div class="cart-total">
+        Total: <span id="total-price">$0.00</span>
+    </div>
+
+
+
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const favoriteIconProducts = document.querySelectorAll('.products .fas.fa-heart');
+            const favoriteMessage = document.querySelector('.favorite-message');
+
+            favoriteIconProducts.forEach(icon => {
+                icon.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    favoriteMessage.style.display = 'block'; // Afișăm mesajul când se dă clic pe inimă
+                    setTimeout(function () {
+                        favoriteMessage.style.display = 'none'; // Ascundem mesajul după 3 secunde
+                    }, 3000);
+                });
+            });
+        });
+    </script>
+
+
+
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const eyeIcons = document.querySelectorAll('.fas.fa-eye'); // Selectăm toate iconițele "eye"
+
+            eyeIcons.forEach(icon => {
+                icon.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const productBox = event.target.closest('.box'); // Găsim elementul box asociat iconului "eye"
+                    const imageSrc = productBox.querySelector('img').src; // Obținem sursa imaginii
+                    openEnlargedWindow(imageSrc); // Deschidem fereastra nouă cu imaginea mărită
+                });
+            });
+
+            function openEnlargedWindow(imageSrc) {
+                const newWindow = window.open('', '_blank', 'width=500%,height=500%'); // Deschidem fereastra nouă
+                newWindow.document.write(`<img src="${imageSrc}" style="width: 100%; height: 100%;" />`); // Adăugăm imaginea în fereastra nouă
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+
+
+
+
+
+</body>
+
+</html>
